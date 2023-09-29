@@ -13,12 +13,13 @@
     <a href="https://www.linkedin.com/company/dijkstra-edu/">LinkedIn</a> •
     <a href="https://discord.com/invite/Vs87cBBU">Discord</a>
     <br /><br />
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Dijkstra-Edu/Dijkstra?style=social">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Dijkstra-Edu/Dijkstra-Admin?style=social">
     <img alt="npm" src="https://img.shields.io/npm/v/npm">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fdijkstra-edu.github.io%2FDijkstra-Web%2F">
-    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Dijkstra-Edu/Dijkstra/master">
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Dijkstra-Edu/Dijkstra">
-    <img alt="GitHub" src="https://img.shields.io/github/license/Dijkstra-Edu/Dijkstra">
+    <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Dijkstra-Edu/Dijkstra-Admin/master">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Dijkstra-Edu/Dijkstra-Admin">
+    <img alt="GitHub" src="https://img.shields.io/github/license/Dijkstra-Edu/Dijkstra-Admin"> 
+    <img alt="Netlify" src="https://img.shields.io/netlify/64e9755f-b15c-43be-bbf2-104f47c78a5a?logo=netlify">
 </p>
 
 # Dijkstra - A one Stop Solution for all your CompSci educational needs!
@@ -41,38 +42,7 @@ If you can help, please do reach out to us! :) Feel free to send a message throu
 
 # Development
 
-### Server - Node (Use Version: v18.14.2)
-
-Begin by installing node dependencies.
-```bash
-npm i 
-```
-
-Start server
-```bash
-npm start
-```
-
-Other important tips to note:
-```bash
-API Creation:
-----------------------------------------------------
-Controller -> Contains req/res of API
-Routers -> Contains route for API (in case of CreatePost, gets variable from controllers/post)
-Models -> Conatains DB Schema for API calls
-App.js -> Uses API call via app.use() function call (line 10, app.js)
-----------------------------------------------------
-Create a 
-```
-
-Check out our [official documentation]() for more information about our [recommended hosting stack]() & properly [Updating Dijkstra](), plus work with [our API]().
-
 ### Admin Dashboard
-
-Enter Admin directory
-```bash
-cd admin
-```
 
 Begin by installing node dependencies.
 ```bash
@@ -97,75 +67,14 @@ To create a production build, use npm run build.
 
 webpack compiled successfully
 ```
+<b>Important!</b> Create a .env file and place an environment variable called REACT_APP_API_URL = https://localhost:3000/
 
-#### React Native App
-
-Enter Application Directory
-```bash
-cd blogApp
-```
-
-Download Dependencies
-```bash
-npm i
-```
-
-Make sure you have an Emulator installed. If not, you can refer to this [article](https://developer.android.com/studio/run/emulator) for Android, and this [article](https://www.browserstack.com/guide/run-ios-apps-on-mac) for IOS. Once that's done. Check to see if Emulator is installed in VS Code via
-```bash
-ctrl + alt + e
-```
-
-Select Option *View Emulators* and then select any installed emulator. Once booted, enter the following in the terminal:
-```bash
-expo start
-```
-
-On entering the metro bundler;
-```bash
-› Press a │ open Android
-› Press i │ open IOS
-› Press w │ open web
-
-› Press r │ reload app
-› Press m │ toggle menu
-
-› Press ? │ show all commands
-```
-
-&nbsp;
+Check out our [official documentation]() for more information about our [recommended hosting stack]() & properly [Updating Dijkstra](), plus work with [our API]().
 
 # TaskList (Things to do)
 There's a LOT to be done. Feel free to pick up a task from this TaskList, or try tackling an issue or two from the issues section. Also, feel free to suggest any fixes, features and suggestions. Your ideas shape Dijkstra, and it's potential to impact thousands of students around the world!
 
-### Administration
-- Company Landing Page
-  - [x] Coming Soon Page - It's [live](https://dijkstra-edu.github.io/Dijkstra-Web/)!
-  - [ ] Final Landing Page
-- Documentation
-  - [ ] GitBook Docs
-- Outreach
-  - [x] LinkedIn Page (Organization)
-  - [ ] Posters + Marketing (Organization)
-  - [x] Discord Server (Organization)
-
 ### v2.0.0
-- Open Source Kickstart
-  - [ ] Make flyers for OS contribution
-  - [ ] Try getting traffic up and running (GDSC, IEEE, VIT) for both use + OS support
-- App
-  - [x] - Splash Screen Loader (Wait for Home page to render completely)
-  - [ ] - Splash Screen Loader (Wait for Home page to render completely)
-  - [ ] - Make Markup Area Larger
-  - [ ] - Fix Search - Backend functionality
-  - [ ] - Fix links access from App
-  - [ ] - Loader for Fetching more posts (Home)
-  - [x] - Fix Status Bar
-  - [x] - Info Card (+Link to portfolio as well as Feedback form)
-  - [x] - Redesign main home and search → Set theme and Color + Bottom Navigator Color
-  - [ ] - Blog Post Design + Colour Handling (how to deal with color depending on Thumbnail Color)
-  - [ ] - Fix Search (change for each letter)
-  - [ ] - Fix Markup Handling
-  - [ ] - Authentication token (bearer token, or if possible, research basic auth and add to routes)
 - Admin
   - [ ] - Make BOT to auto build out a blog post
   - [ ] - Splash Screen Loader
@@ -201,13 +110,6 @@ It's still a work in progress, but please feel free to suggest changes, via GitH
 ![image](https://github.com/Dijkstra-Edu/Dijkstra/assets/70965472/64483295-8419-457a-bb29-2db8f6f4a659)
 <div align="center"><i>Dijkstra Admin Panel - Create Post</i></div>
 <br>
-
-<p style="padding: 5;" align="center">
-  <picture><img style="padding: 5;" alt="Splash Screen" src="https://github.com/Dijkstra-Edu/Dijkstra-Monolith/assets/70965472/f4b7c548-a6c5-4a6c-ab27-c3a47d4c20f9" width="30%"></picture>
-  <picture><img style="padding: 5;" alt="Home" src="https://github.com/Dijkstra-Edu/Dijkstra-Monolith/assets/70965472/759fe05f-9735-4e30-9b3d-afab63cf6f26" width="30%"></picture>
-  <picture><img style="padding: 5;" alt="About Us" src="https://github.com/Dijkstra-Edu/Dijkstra-Monolith/assets/70965472/9045fad1-f078-4caa-99da-73ba88a0e437" width="30%"></picture>
-</p>
-<div align="center"><i>Splash Screen, Home Screen, About Us Screen</i></div>
 
 &nbsp;
 
