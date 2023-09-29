@@ -19,6 +19,7 @@
     <img alt="GitHub last commit (branch)" src="https://img.shields.io/github/last-commit/Dijkstra-Edu/Dijkstra-Admin/master">
     <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Dijkstra-Edu/Dijkstra-Admin">
     <img alt="GitHub" src="https://img.shields.io/github/license/Dijkstra-Edu/Dijkstra-Admin"> 
+    <img alt="Netlify" src="https://img.shields.io/netlify/64e9755f-b15c-43be-bbf2-104f47c78a5a?logo=netlify">
 </p>
 
 # Dijkstra - A one Stop Solution for all your CompSci educational needs!
